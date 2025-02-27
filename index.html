@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <div class="theme-toggle">
+        <button id="themeButton">
+            <span class="moon">🌙</span>
+            <span class="sun">☀️</span>
+        </button>
+    </div>
+
+    <div class="chat-container">
+        <div class="suggestions">
+            <button class="suggestion-pill" data-project="project1">Full-Stack Project</button>
+            <button class="suggestion-pill" data-project="project2">Mobile App</button>
+            <button class="suggestion-pill" data-project="about">About Me</button>
+            <button class="suggestion-pill" data-project="contact">Contact</button>
+        </div>
+        
+        <div class="chat-history" id="chatHistory">
+            <!-- Initial welcome message will be added here -->
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Send a message...">
+            <button id="sendButton">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
