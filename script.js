@@ -18,11 +18,11 @@ class PortfolioChat {
             },
             about: {
                 title: "About Me",
-                description: "I'm a full-stack developer passionate about creating intuitive user experiences..."
+                description: "I'm a highly motivated and results-oriented AI/ML Engineer with a strong track record of success in developing and deploying innovative AI solutions. I have expertise in machine learning, natural language processing, and data visualization, with a strong foundation in programming and data analysis. I am skilled in designing retrieval-augmented generation (RAG) chatbots, data orchestration pipelines, and containerized AI models to streamline workflows and enhance decision-making. I have proven ability to collaborate effectively with cross-functional teams to deliver impactful results. I am passionate about leveraging AI to drive business value and improve decision-making."
             },
             contact: {
                 title: "Contact",
-                description: "Email: your.email@example.com\nLinkedIn: linkedin.com/in/yourprofile"
+                description: "Email: farazh1224@gmail.com\nLinkedIn: linkedin.com/in/farazh24"
             }
         };
 
